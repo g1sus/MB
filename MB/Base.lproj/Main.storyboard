@@ -375,6 +375,7 @@
                         <outlet property="txtMovil" destination="VF3-Q7-lXN" id="Aoi-AE-uXp"/>
                         <outlet property="txtNombre" destination="Bcb-1C-UHX" id="RtX-bP-shd"/>
                         <outlet property="txtPeso" destination="2N6-30-J9p" id="HTH-Xr-1ld"/>
+                        <segue destination="XQ6-tr-yjd" kind="modal" identifier="EditToMenu" id="Box-gg-MpC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MLV-5q-jkM" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1009,6 +1010,7 @@
         <image name="web.png" width="118" height="118"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="Box-gg-MpC"/>
         <segue reference="DTa-oa-5DR"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -78,6 +78,7 @@
         
         
         
+        
         if ([objTemp saveInBackground]){
             self.txtNombre.text = nil;
             self.txtFechaNac.text = nil;
@@ -92,8 +93,7 @@
         }
         
         
-        
-       // [self performSegueWithIdentifier:@"" sender:self];
+        [self performSegueWithIdentifier:@"EditToMenu" sender:self];
         
     }
 
